@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+
+// Styles
 import "./index.css";
 
 // Navigation Component
@@ -25,7 +27,7 @@ function Navigation({ currentPage, setCurrentPage }) {
         {/* Logo */}
         <div className="logo-section">
           <img 
-            src="/src/assets/REVICE_DARK_LOGO.png" 
+            src="/REVICE_DARK_LOGO.png" 
             alt="Revice" 
             className="logo"
             onClick={() => setCurrentPage('home')}
@@ -54,7 +56,7 @@ function Navigation({ currentPage, setCurrentPage }) {
             className="download-link"
           >
             <img 
-              src="/src/assets/apple_store_download_01.webp" 
+              src="/apple_store_download_01.webp" 
               alt="Download on App Store" 
               className="apple-button"
             />
@@ -66,7 +68,7 @@ function Navigation({ currentPage, setCurrentPage }) {
             className="download-link"
           >
             <img 
-              src="/src/assets/android_store_download.png" 
+              src="/android_store_download.png" 
               alt="Get it on Google Play" 
               className="android-button"
             />
@@ -102,14 +104,14 @@ function Navigation({ currentPage, setCurrentPage }) {
           <div className="mobile-store-buttons">
             <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
               <img 
-                src="/src/assets/apple_store_download_01.webp" 
+                src="/apple_store_download_01.webp" 
                 alt="Download on App Store" 
                 className="mobile-apple-button"
               />
             </a>
             <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
               <img 
-                src="/src/assets/android_store_download.png" 
+                src="/android_store_download.png" 
                 alt="Get it on Google Play" 
                 className="mobile-android-button"
               />
@@ -168,14 +170,14 @@ function Home() {
             <div className="hero-buttons">
               <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="hero-store-link">
                 <img 
-                  src="/src/assets/apple_store_download_01.webp" 
+                  src="/apple_store_download_01.webp" 
                   alt="Download on App Store" 
                   className="hero-apple-button"
                 />
               </a>
               <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="hero-store-link">
                 <img 
-                  src="/src/assets/android_store_download.png" 
+                  src="/android_store_download.png" 
                   alt="Get it on Google Play" 
                   className="hero-android-button"
                 />
@@ -248,14 +250,14 @@ function Home() {
           <div className="hero-buttons">
             <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="hero-store-link">
               <img 
-                src="/src/assets/apple_store_download_01.webp" 
+                src="/apple_store_download_01.webp" 
                 alt="Download on App Store" 
                 className="hero-apple-button"
               />
             </a>
             <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="hero-store-link">
               <img 
-                src="/src/assets/android_store_download.png" 
+                src="/android_store_download.png" 
                 alt="Get it on Google Play" 
                 className="hero-android-button"
               />
@@ -292,10 +294,10 @@ function About() {
         
         <div className="page-download-section">
           <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
-            <img src="/src/assets/apple_store_download_01.webp" alt="App Store" className="page-apple-button" />
+            <img src="/apple_store_download_01.webp" alt="App Store" className="page-apple-button" />
           </a>
           <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
-            <img src="/src/assets/android_store_download.png" alt="Google Play" className="page-android-button" />
+            <img src="/android_store_download.png" alt="Google Play" className="page-android-button" />
           </a>
         </div>
       </div>
@@ -331,10 +333,10 @@ function Features() {
         
         <div className="page-download-section">
           <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
-            <img src="/src/assets/apple_store_download_01.webp" alt="App Store" className="page-apple-button" />
+            <img src="/apple_store_download_01.webp" alt="App Store" className="page-apple-button" />
           </a>
           <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
-            <img src="/src/assets/android_store_download.png" alt="Google Play" className="page-android-button" />
+            <img src="/android_store_download.png" alt="Google Play" className="page-android-button" />
           </a>
         </div>
       </div>
@@ -360,10 +362,10 @@ function Contact() {
         
         <div className="page-download-section">
           <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
-            <img src="/src/assets/apple_store_download_01.webp" alt="App Store" className="page-apple-button" />
+            <img src="/apple_store_download_01.webp" alt="App Store" className="page-apple-button" />
           </a>
           <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
-            <img src="/src/assets/android_store_download.png" alt="Google Play" className="page-android-button" />
+            <img src="/android_store_download.png" alt="Google Play" className="page-android-button" />
           </a>
         </div>
       </div>
