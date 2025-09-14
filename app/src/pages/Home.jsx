@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Footer from '../components/Footer';
 
 function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,7 +16,7 @@ function Home() {
         <div className="hero-background-image">
           {/* Placeholder for fancy app graphic - will be replaced by designer's PNG */}
           <img 
-            src="https://placehold.co/1300x1100" 
+            src="/dashboard_0.png" 
             alt="Revice App Interface"
             className="hero-bg-graphic"
           />
@@ -140,6 +141,7 @@ function Home() {
           Download Now
         </a>
       </div>
+      <Footer/>
     </>
   );
 }

@@ -57,10 +57,10 @@ function Navigation() {
             Features
           </Link>
           <Link 
-            to="/contact" 
+            to="/get-support" 
             className={`nav-link ${isActive('/contact') ? 'active' : ''}`}
           >
-            Contact
+            Support
           </Link>
         </div>
 
