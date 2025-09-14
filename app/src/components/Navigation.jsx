@@ -56,9 +56,9 @@ function Navigation() {
           >
             Features
           </Link>
-          <Link 
-            to="/get-support" 
-            className={`nav-link ${isActive('/contact') ? 'active' : ''}`}
+          <Link
+            to="/get-support"
+            className={`nav-link ${isActive('/get-support') ? 'active' : ''}`}
           >
             Support
           </Link>
@@ -126,12 +126,12 @@ function Navigation() {
         >
           Features
         </Link>
-        <Link 
-          to="/contact"
+        <Link
+          to="/get-support"
           onClick={handleNavClick}
-          className={`mobile-nav-link ${isActive('/contact') ? 'active' : ''}`}
+          className={`mobile-nav-link ${isActive('/get-support') ? 'active' : ''}`}
         >
-          Contact
+          Support
         </Link>
         
         {/* Mobile Download Buttons */}
