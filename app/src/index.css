@@ -33,7 +33,7 @@
 }
 
 .support-title {
-  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-size: clamp(3.5rem, 6vw, 6rem);
   font-weight: 800;
   margin-bottom: 1rem;
   line-height: 1.1;
@@ -292,7 +292,29 @@
     padding: 1rem 2.5rem;
     font-size: 1rem;
   }
-  
+
+  .support-cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1.5rem 0 2.5rem 0;
+  }
+
+  .support-card {
+    padding: 1.5rem;
+  }
+
+  .card-icon {
+    font-size: 2rem;
+  }
+
+  .support-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .support-card p {
+    font-size: 1rem;
+  }
+
   .support-image-container {
     margin-top: 3rem;
   }
@@ -1399,6 +1421,97 @@ a:focus-visible {
 
 .alert-box p:last-child {
   margin-bottom: 0;
+}
+
+.alert-header {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #ff77c6;
+}
+
+/* Support Cards */
+.support-intro {
+  margin-bottom: 2rem;
+}
+
+.support-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.support-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.support-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(102, 126, 234, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.support-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.support-card p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.hours-info {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.help-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.category:last-child {
+  border-bottom: none;
+}
+
+.category strong {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.category span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+  line-height: 1.4;
 }
 
 /* Contact Info Box */
