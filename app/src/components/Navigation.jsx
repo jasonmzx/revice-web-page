@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import AppStoreButton from './AppStoreButton';
+import GooglePlayButton from './GooglePlayButton';
 
 function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -66,30 +68,8 @@ function Navigation() {
 
         {/* Download Buttons - Desktop */}
         <div className="download-buttons">
-          <a 
-            href="https://apps.apple.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="download-link"
-          >
-            <img 
-              src="/apple_store_download_01.webp" 
-              alt="Download on App Store" 
-              className="apple-button"
-            />
-          </a>
-          <a 
-            href="https://play.google.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="download-link"
-          >
-            <img 
-              src="/android_store_download.png" 
-              alt="Get it on Google Play" 
-              className="android-button"
-            />
-          </a>
+          <AppStoreButton variant="small" />
+          <GooglePlayButton variant="small" />
         </div>
 
         {/* Mobile Menu Button */}
@@ -138,20 +118,8 @@ function Navigation() {
         <div className="mobile-download-section">
           <h3 className="mobile-download-title">Get the App</h3>
           <div className="mobile-store-buttons">
-            <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
-              <img 
-                src="/apple_store_download_01.webp" 
-                alt="Download on App Store" 
-                className="mobile-apple-button"
-              />
-            </a>
-            <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
-              <img 
-                src="/android_store_download.png" 
-                alt="Get it on Google Play" 
-                className="mobile-android-button"
-              />
-            </a>
+            <AppStoreButton variant="small" />
+            <GooglePlayButton variant="small" />
           </div>
         </div>
         

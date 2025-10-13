@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
+import AppStoreButton from '../components/AppStoreButton';
+import GooglePlayButton from '../components/GooglePlayButton';
 
 function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,20 +30,8 @@ function Home() {
 
             {/* Download Buttons */}
             <div className="hero-buttons">
-              <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="hero-store-link">
-                <img
-                  src="/apple_store_download_01.webp"
-                  alt="Download on App Store"
-                  className="hero-apple-button"
-                />
-              </a>
-              <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="hero-store-link">
-                <img
-                  src="/android_store_download.png"
-                  alt="Get it on Google Play"
-                  className="hero-android-button"
-                />
-              </a>
+              <AppStoreButton variant="large" />
+              <GooglePlayButton variant="large" />
             </div>
           </div>
 
@@ -98,20 +88,8 @@ function Home() {
           <h2 className="cta-title">Ready to Revise?</h2>
           <p className="cta-text">Join thousands who've already started their transformation</p>
           <div className="hero-buttons">
-            <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="hero-store-link">
-              <img 
-                src="/apple_store_download_01.webp" 
-                alt="Download on App Store" 
-                className="hero-apple-button"
-              />
-            </a>
-            <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="hero-store-link">
-              <img 
-                src="/android_store_download.png" 
-                alt="Get it on Google Play" 
-                className="hero-android-button"
-              />
-            </a>
+            <AppStoreButton variant="large" />
+            <GooglePlayButton variant="large" />
           </div>
         </div>
       </section>
