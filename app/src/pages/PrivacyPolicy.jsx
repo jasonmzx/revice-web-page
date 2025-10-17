@@ -31,12 +31,12 @@ function PrivacyPolicy() {
         <div className="policy-content">
           <div className="page-header">
             <h1 className="page-title">Privacy Policy</h1>
-            <p className="policy-date">Last Updated: September 5, 2025</p>
+            <p className="policy-date">Last Updated: October 16, 2025</p>
           </div>
           
           <section className="policy-section">
             <p className="page-text">
-              At Revice, we understand that privacy is especially important when you're in recovery. This Privacy Policy explains how we handle your information with the care and respect you deserve. We've written this in plain language because you have the right to understand exactly what happens to your data.
+              At REVICE, we understand that privacy is especially important when you're in recovery. This Privacy Policy explains how we handle your information with the care and respect you deserve. We've written this in plain language because you have the right to understand exactly what happens to your data.
             </p>
             
             <div className="alert-box">
@@ -63,7 +63,7 @@ function PrivacyPolicy() {
       Information related to your recovery journey, which may include the addictions or vices you are working to manage, sobriety date(s), responses to onboarding questions, and your personal motivations or goals for recovery.
     </li>
     <li>
-      Religious or spiritual preference (only if you voluntarily provide it). This information is used solely to personalize your experience. Our AI may reference broad principles and themes associated with the preference you provide. It is not intended to deliver doctrinal guidance, factual interpretation, or commentary on religions you have not explicitly selected. Revice will not use or infer religious information beyond what you choose to share.
+      Religious or spiritual preference (only if you voluntarily provide it). This information is used solely to personalize your experience. Our AI may reference broad principles and themes associated with the preference you provide. It is not intended to deliver doctrinal guidance, factual interpretation, or commentary on religions you have not explicitly selected. REVICE will not use or infer religious information beyond what you choose to share.
     </li>
   </ul>
 
@@ -115,7 +115,7 @@ function PrivacyPolicy() {
     <li>Protect vulnerable users from potential exploitation</li>
   </ul>
 
-  <h3 className="policy-subheading">2.3 To Improve Revice</h3>
+  <h3 className="policy-subheading">2.3 To Improve REVICE</h3>
   <ul className="policy-list">
     <li>Analyze which features are most effective</li>
     <li>Identify and fix bugs or technical issues</li>
@@ -162,7 +162,7 @@ function PrivacyPolicy() {
               <li><strong>AI Processing (OpenAI):</strong> Generates personalized content (context only, no identifying info)</li>
               <li><strong>Payment Processor (Google Play & App Store):</strong> Handles subscription payments (no recovery data shared)</li>
             </ul>
-            <p className="page-text">Each provider signs strict agreements protecting your data and limiting use to providing services to Revice only.</p>
+            <p className="page-text">Each provider signs strict agreements protecting your data and limiting use to providing services to REVICE only.</p>
             
             <h3 className="policy-subheading">4.3 What We DON'T Do:</h3>
             <ul className="policy-list">
@@ -257,7 +257,7 @@ function PrivacyPolicy() {
           <section className="policy-section">
             <h2 className="policy-heading">7. Children's Privacy</h2>
             <div className="alert-box">
-              <p>Revice is strictly for users 18 and older. We don't knowingly collect data from anyone under 18. If we discover we have, we'll immediately delete it and terminate the account. Parents: if your child has created an account, contact us immediately at <a href="mailto:privacy@revice.app" className="contact-link">privacy@revice.app</a>.</p>
+              <p>REVICE is strictly for users 18 and older. We don't knowingly collect data from anyone under 18. If we discover we have, we'll immediately delete it and terminate the account. Parents: if your child has created an account, contact us immediately at <a href="mailto:privacy@revice.app" className="contact-link">privacy@revice.app</a>.</p>
             </div>
           </section>
 
@@ -265,7 +265,7 @@ function PrivacyPolicy() {
             <h2 className="policy-heading">8. Data Retention and Deletion</h2>
             
             <h3 className="policy-subheading">8.1 Active Accounts</h3>
-            <p className="page-text">We keep your data while your account is active and you're using Revice.</p>
+            <p className="page-text">We keep your data while your account is active and you're using REVICE.</p>
             
             <h3 className="policy-subheading">8.2 Account Deletion</h3>
             <p className="page-text">When you delete your account:</p>
@@ -288,7 +288,7 @@ function PrivacyPolicy() {
             <h2 className="policy-heading">9. International Data Transfers</h2>
             
             <h3 className="policy-subheading">9.1 Data Location</h3>
-            <p className="page-text">Your data is primarily stored in the United States. By using Revice, you consent to transfer and processing in the US.</p>
+            <p className="page-text">Your data is primarily stored in the United States. By using REVICE, you consent to transfer and processing in the US.</p>
             
             <h3 className="policy-subheading">9.2 International User Protections</h3>
             <p className="page-text">For users outside the US:</p>
@@ -322,7 +322,7 @@ function PrivacyPolicy() {
               <li>Your recovery context helps personalize AI responses</li>
               <li>AI doesn't know your identity, only your recovery context</li>
               <li>No fully automated decision-making that significantly affects you</li>
-              <li>You can opt-out of AI features while still using Revice</li>
+              <li>You can opt-out of AI features while still using REVICE</li>
             </ul>
             
             <h3 className="policy-subheading">11.2 Human Oversight</h3>

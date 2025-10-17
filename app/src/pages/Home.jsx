@@ -2,6 +2,11 @@ import { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import AppStoreButton from '../components/AppStoreButton';
 import GooglePlayButton from '../components/GooglePlayButton';
+import Lottie from 'lottie-react';
+import statistics from '../assets/lottie/statistics.json'
+import book from '../assets/lottie/book-search.json'
+import support from '../assets/lottie/support.json'
+
 
 function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -19,13 +24,13 @@ function Home() {
           <div className="hero-content">
             <h1 className="hero-title">
               <span className="hero-title-gradient">Quit Your Vices.</span>
-              <span className="hero-title-white">Get Sober with Revice.</span>
+              <span className="hero-title-white">Get Sober with REVICE.</span>
               <span className="hero-title-subtle">Reclaim Your Life.</span>
             </h1>
 
             <p className="hero-subtitle">
-              Your AI companion for lasting sobriety. Personalized support,
-              real-time insights, and evidence-based recovery—all in one app.
+              Your companion for lasting sobriety. Personalized support,
+              real-time insights, and evidence-based recovery all in one app.
             </p>
 
             {/* Download Buttons */}
@@ -49,33 +54,48 @@ function Home() {
       {/* Why Choose Revice Section */}
       <section className="features-section">
         <div className="section-header">
-          <h2 className="section-title">Why Choose Revice?</h2>
-          <p className="section-subtitle">Revice is the most personalized addiction recovery & sobriety app</p>
+          <h2 className="section-title">Why Choose REVICE?</h2>
+          <p className="section-subtitle">REVICE is the most personalized addiction recovery & sobriety app</p>
         </div>
 
         <div className="features-cards">
           {[
             {
-              icon: '🤖',
+            icon: 
+              <Lottie 
+                animationData={book} 
+                loop={true} 
+                autoplay={true} 
+              />,
               title: 'AI-Powered Recovery',
-              desc: 'Advanced AI learns your patterns and provides personalized support 24/7 to help you stay sober'
+              desc: 'REVICE learns from your habits and patterns to provide personalized support 24/7 to help you stay sober'
             },
             {
-              icon: '📊',
+              icon: 
+                <Lottie 
+                  animationData={statistics} 
+                  loop={true} 
+                  autoplay={true} 
+                />,
               title: 'Smart Progress Tracking',
-              desc: 'Track your sobriety journey with intelligent insights into triggers, moods, and milestones'
+              desc: 'Track your sobriety journey with intelligent insights into your triggers, mood, and milestones'
             },
             {
-              icon: '🎯',
+              icon: 
+                <Lottie 
+                  animationData={support} 
+                  loop={true} 
+                  autoplay={true} 
+                />,
               title: 'Personalized Support',
-              desc: 'Every person\'s recovery is unique. Get customized goals, reminders, and strategies that work for you'
+              desc: 'Your recovery journey is unique. Get customized goals, reminders, and strategies that work for you'
             }
           ].map((feature, index) => (
             <div key={index} className="feature-card">
+              <h3 className="feature-title">{feature.title}</h3>
               <div className="feature-icon-circle">
                 <span className="feature-icon">{feature.icon}</span>
               </div>
-              <h3 className="feature-title">{feature.title}</h3>
               <p className="feature-desc">{feature.desc}</p>
             </div>
           ))}

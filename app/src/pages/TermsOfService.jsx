@@ -36,10 +36,10 @@ function TermsOfService() {
           
           <section className="policy-section">
             <p className="page-text">
-              Welcome to Revice. These Terms of Service ("Terms") form a legally binding agreement between you and Atevo Inc. ("we," "us," "our") governing your use of the Revice addiction recovery mobile application, website, and related services (collectively, the "Service").
+              Welcome to REVICE. These Terms of Service ("Terms") form a legally binding agreement between you and Atevo Inc. ("we," "us," "our") governing your use of the REVICE addiction recovery mobile application, website, and related services (collectively, the "Service").
             </p>
             <div className="alert-box">
-              <p><strong>IMPORTANT:</strong> Revice serves individuals in addiction recovery, people in this state are usually vulnerable. We've designed these Terms with your wellbeing in mind.</p>
+              <p><strong>IMPORTANT:</strong> REVICE serves individuals in addiction recovery, people in this state are usually vulnerable. We've designed these Terms with your wellbeing in mind.</p>
             </div>
           </section>
 
@@ -47,13 +47,13 @@ function TermsOfService() {
             <h2 className="policy-heading">1. Acceptance and Eligibility</h2>
             
             <h3 className="policy-subheading">1.1 Binding Agreement</h3>
-            <p className="page-text">By accessing or using Revice, you acknowledge that you've read, understood, and agree to these Terms. If you don't agree, please don't use our Service.</p>
+            <p className="page-text">By accessing or using REVICE, you acknowledge that you've read, understood, and agree to these Terms. If you don't agree, please don't use our Service.</p>
             
             <h3 className="policy-subheading">1.2 Age Requirements</h3>
-            <p className="page-text">You must be at least 18 years old to use Revice. We do not knowingly collect information from anyone under 18. If we discover we've collected data from a minor, we'll promptly delete it and terminate the account.</p>
+            <p className="page-text">You must be at least 18 years old to use REVICE. We do not knowingly collect information from anyone under 18. If we discover we've collected data from a minor, we'll promptly delete it and terminate the account.</p>
             
             <h3 className="policy-subheading">1.3 Legal Capacity</h3>
-            <p className="page-text">You represent that you have the legal capacity to enter into these Terms. If you're using Revice while experiencing cognitive impairment that affects decision-making, we recommend reviewing these Terms with a trusted support person.</p>
+            <p className="page-text">You represent that you have the legal capacity to enter into these Terms. If you're using REVICE while experiencing cognitive impairment that affects decision-making, we recommend reviewing these Terms with a trusted support person.</p>
           </section>
 
           <section className="policy-section">
@@ -61,7 +61,7 @@ function TermsOfService() {
             
             <h3 className="policy-subheading">2.1 Not a Medical Service</h3>
             <div className="alert-box">
-              <p>Revice is an educational and peer support tool only. We are NOT:</p>
+              <p>REVICE is an educational and peer support tool only. We are NOT:</p>
               <ul className="policy-list">
                 <li>A substitute for professional medical, psychiatric, or therapeutic treatment</li>
                 <li>A licensed healthcare provider</li>
@@ -76,18 +76,18 @@ function TermsOfService() {
             
             <h3 className="policy-subheading">2.3 Crisis Situations</h3>
             <div className="alert-box">
-              <p><strong>Revice is not equipped to handle emergencies.</strong> If you're in crisis, experiencing a medical emergency, or having thoughts of self-harm, immediately contact emergency services or visit our Support page for crisis resources. Our app includes crisis resource links, but we cannot guarantee real-time crisis intervention.</p>
+              <p><strong>REVICE is not equipped to handle emergencies.</strong> If you're in crisis, experiencing a medical emergency, or having thoughts of self-harm, immediately contact emergency services or visit our Support page for crisis resources. Our app includes crisis resource links, but we cannot guarantee real-time crisis intervention.</p>
             </div>
             
             <h3 className="policy-subheading">2.4 Your Responsibility and Autonomy</h3>
-            <p className="page-text">You maintain full responsibility for your recovery decisions. Revice provides tools and support, but you're the expert on your own journey. Never rely solely on our Service for recovery decisions.</p>
+            <p className="page-text">You maintain full responsibility for your recovery decisions. REVICE provides tools and support, but you're the expert on your own journey. Never rely solely on our Service for recovery decisions.</p>
           </section>
 
           <section className="policy-section">
             <h2 className="policy-heading">3. AI Features - Transparency and Limitations</h2>
             
             <h3 className="policy-subheading">3.1 How Our AI Works</h3>
-            <p className="page-text">Revice uses artificial intelligence models (currently OpenAI's GPT-4 and GPT-5) to generate personalized content. Here's what you need to know:</p>
+            <p className="page-text">REVICE uses artificial intelligence models (currently OpenAI's GPT-4 and GPT-5) to generate personalized content. Here's what you need to know:</p>
             <ul className="policy-list">
               <li>AI responses are generated based on patterns in training data, not clinical expertise</li>
               <li>Responses may contain errors, inconsistencies, or inappropriate content ("hallucinations")</li>
@@ -176,7 +176,7 @@ function TermsOfService() {
             <h2 className="policy-heading">7. Prohibited Uses of Service</h2>
             <p className="page-text">You agree NOT to:</p>
             <ul className="policy-list">
-              <li>Use Revice for any unlawful purpose</li>
+              <li>Use REVICE for any unlawful purpose</li>
               <li>Attempt to harm, exploit, or take advantage of other users</li>
               <li>Create multiple accounts to evade restrictions</li>
               <li>Reverse engineer or extract our source code</li>
@@ -194,7 +194,7 @@ function TermsOfService() {
             <p className="page-text">You retain ownership of content you create. By posting, you grant us a worldwide, non-exclusive, royalty-free license to use, display, and distribute your content within the Service. This license ends when you delete your content, except for content you've shared publicly that others have engaged with.</p>
             
             <h3 className="policy-subheading">8.2 Our Intellectual Property</h3>
-            <p className="page-text">Revice's design, features, and content are protected by intellectual property laws. You may not copy, modify, or distribute our proprietary content without permission.</p>
+            <p className="page-text">REVICE's design, features, and content are protected by intellectual property laws. You may not copy, modify, or distribute our proprietary content without permission.</p>
             
             <h3 className="policy-subheading">8.3 Feedback and Suggestions</h3>
             <p className="page-text">Any feedback or feature suggestions you provide become our property and may be used without compensation or attribution.</p>
@@ -204,7 +204,7 @@ function TermsOfService() {
             <h2 className="policy-heading">9. Third-Party Services and Links</h2>
             
             <h3 className="policy-subheading">9.1 External Resources</h3>
-            <p className="page-text">Revice may link to third-party resources, treatment centers, or support services. We don't control or endorse these external sites and aren't responsible for their content or practices.</p>
+            <p className="page-text">REVICE may link to third-party resources, treatment centers, or support services. We don't control or endorse these external sites and aren't responsible for their content or practices.</p>
             
             <h3 className="policy-subheading">9.2 Third-Party Integrations</h3>
             <p className="page-text">If you connect third-party services (like health apps), you're subject to their terms and privacy policies in addition to ours.</p>
@@ -214,7 +214,7 @@ function TermsOfService() {
             <h2 className="policy-heading">10. Disclaimers and Liability Limitations</h2>
             
             <h3 className="policy-subheading">10.1 Service Provided "As Is"</h3>
-            <p className="page-text">Revice is provided "AS IS" and "AS AVAILABLE." We make no warranties, express or implied, about the Service's operation, accuracy, or fitness for any particular purpose.</p>
+            <p className="page-text">REVICE is provided "AS IS" and "AS AVAILABLE." We make no warranties, express or implied, about the Service's operation, accuracy, or fitness for any particular purpose.</p>
             
             <h3 className="policy-subheading">10.2 No Health Warranties</h3>
             <p className="page-text">We specifically disclaim any warranties regarding health outcomes, recovery success, or medical accuracy. The Service is not a replacement for professional treatment.</p>
@@ -287,7 +287,7 @@ function TermsOfService() {
             <p className="page-text">We may update these Terms as laws and our Service evolve. We'll notify you of material changes via email or in-app notice at least 7 days before they take effect.</p>
             
             <h3 className="policy-subheading">14.2 Continued Use</h3>
-            <p className="page-text">Using Revice after Terms updates means you accept the changes. If you disagree, please stop using the Service and delete your account.</p>
+            <p className="page-text">Using REVICE after Terms updates means you accept the changes. If you disagree, please stop using the Service and delete your account.</p>
           </section>
 
           <section className="policy-section">
@@ -297,7 +297,7 @@ function TermsOfService() {
             <p className="page-text">These Terms are governed by Delaware law, without regard to conflict of law principles.</p>
             
             <h3 className="policy-subheading">15.2 Compliance with Laws</h3>
-            <p className="page-text">You agree to comply with all applicable laws when using Revice, including those related to privacy, data protection, and healthcare information.</p>
+            <p className="page-text">You agree to comply with all applicable laws when using REVICE, including those related to privacy, data protection, and healthcare information.</p>
           </section>
 
           <section className="policy-section">
