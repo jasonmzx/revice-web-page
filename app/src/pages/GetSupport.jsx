@@ -31,20 +31,25 @@ function GetSupport() {
           </div>
 
           <div className="alert-box">
-            <div className="alert-header">🚨 Crisis Support</div>
+            <div className="alert-header">
+              <span>
+                <img src='src/assets/alert.svg' />
+                Crisis Support
+              </span>
+            </div>
             <p>If you're experiencing a mental health crisis or emergency, please contact <strong>911</strong> or the <strong>National Suicide Prevention Lifeline at 988</strong>. Our team provides technical support, not crisis intervention.</p>
           </div>
 
           <div className="support-cards">
             <div className="support-card">
-              <div className="card-icon">⚡</div>
+              <img src = 'src/assets/fast-response.svg'className="card-icon"/>
               <h3>Quick Response</h3>
               <p>We typically respond within <strong>24-48 hours</strong> during business hours</p>
               <div className="hours-info">Monday - Friday, 9 AM - 6 PM EST</div>
             </div>
 
             <div className="support-card">
-              <div className="card-icon">🛠️</div>
+              <img src = 'src/assets/tools.svg'className="card-icon"/>
               <h3>What We Help With</h3>
               <div className="help-categories">
                 <div className="category">
