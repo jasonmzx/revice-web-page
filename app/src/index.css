@@ -4,7 +4,7 @@
 /* Get Support Page Styles */
 .support-page {
   min-height: 100vh;
-  padding-top: 72px;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   opacity: 0;
@@ -73,19 +73,21 @@
 
 /* Glowing Contact Button */
 .contact-button {
-  position: relative;
-  padding: 1.25rem 3rem;
-  font-size: 1.125rem;
-  font-weight: 600;
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-clip: padding-box;
+  background: linear-gradient(135deg, #007AFF 0%, #009BD7 40%, #009BD7 100%);  
+  border: 2px solid rgba(255, 255, 255, 0.05);
   color: #0a0a0a;
-  background: white;
-  border: none;
   border-radius: 100px;
-  cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-  animation: fadeInUp 0.8s ease 0.3s both;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+   /* Breathing animation */
+  animation: breathe 2.5s ease-in-out infinite;
 }
 
 .contact-button::before {
@@ -863,6 +865,15 @@ body {
   overflow: hidden;
 }
 
+.feature-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 .feature-card::before {
   content: '';
   position: absolute;
@@ -895,7 +906,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem auto 1.5rem; /* centers automatically */
+  margin: 1rem auto 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -911,12 +922,25 @@ body {
   filter: grayscale(0.3);
 }
 
-.feature-emoji img {
-  width: 3.5rem;
-  height: 3.5rem;
-  display: inline-block;
-  object-fit: contain;
+.feature-emoji {
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(240, 147, 251, 0.2));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 auto 1.5rem; 
 }
+
+.feature-emoji img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  display: block;
+}
+
 
 .feature-title,
 .feature-list-title {
@@ -1006,14 +1030,16 @@ body {
 .floating-button {
   display: inline-block;
   padding: 1rem 2.5rem;
+  background-clip: padding-box;
   background: linear-gradient(135deg, #007AFF 0%, #009BD7 40%, #009BD7 100%);  
+  border: 2px solid rgba(255, 255, 255, 0.05);
   color: #0a0a0a;
   border-radius: 100px;
   font-weight: 600;
   font-size: 1rem;
   color: rgba(255,255,255,1);
   text-decoration: none;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
    /* Breathing animation */
   animation: breathe 2.5s ease-in-out infinite;
@@ -1060,6 +1086,45 @@ body {
 }
 
 /* Media Queries */
+/* Desktop layout (side-by-side) */
+@media (min-width: 768px) {
+  .feature-list-item {
+    display: flex;              /* ensure it's a flex container */
+    flex-direction: row;        /* place emoji + text side-by-side */
+    align-items: center;        /* vertically align */
+    justify-content: flex-start;
+    text-align: left;
+    gap: 3rem;
+    padding: 2rem 5rem;
+  }
+
+  .feature-emoji {
+    flex-shrink: 0;
+    width: 8rem;
+    height: 8rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-list-item > div {
+    flex: 1;                    /* text fills remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    /* centers text vertically with emoji */
+  }
+
+  .feature-list-title {
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+
+  .feature-list-desc {
+    text-align: left;
+  }
+}
+
 @media (max-width: 1200px) {
   .hero-title {
     font-size: clamp(2.75rem, 5vw, 4.5rem);
@@ -1320,7 +1385,7 @@ a:focus-visible {
 .page-title {
   font-size: 4rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #007AFF 0%, rgba(0, 155, 215, 0.9) 100%);  
+  background: linear-gradient(135deg, #ffffff 0%, #007AFF 90%, #009BD7 100%);  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

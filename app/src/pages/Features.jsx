@@ -7,9 +7,9 @@ function Features() {
         <div className="content-section">
           <h1 className="page-title">Features That Matter</h1>
           
-          <div className="features-list">
+          <div className="feature-list">
             {[
-              { emoji: 'src/assets/personal-trainer.svg', title: 'Personalized AI Coach', desc: 'Your 24/7 companion that learns your unique patterns, triggers, and motivations to provide support when you need it most.' },
+              { emoji: 'src/assets/personal-trainer.svg', title: 'Personalized Recovery', desc: 'Your 24/7 companion that learns your unique patterns, triggers, and motivations to provide support when you need it most.' },
               { emoji: 'src/assets/analytics.svg', title: 'Smart Analytics', desc: 'Track your journey with intelligent insights. Visualize progress, identify patterns, and celebrate milestones.' },
               { emoji: 'src/assets/daily-goal.svg', title: 'Daily Goals & Habits', desc: 'Build lasting change with personalized daily challenges and habit tracking designed for sustainable recovery.' },
               { emoji: 'src/assets/safe-space.svg', title: 'Safe Community', desc: 'Connect anonymously with others on similar journeys. Share experiences, find support, and inspire each other.' },

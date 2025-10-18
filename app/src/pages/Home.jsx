@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import AppStoreButton from '../components/AppStoreButton';
 import GooglePlayButton from '../components/GooglePlayButton';
+import SmartDownloadButton from '../components/SmartDownloadButton';
 import Lottie from 'lottie-react';
 import statistics from '../assets/lottie/statistics.json'
 import book from '../assets/lottie/book-search.json'
@@ -114,11 +115,9 @@ function Home() {
         </div>
       </section>
 
-      {/* Mobile-only Floating CTA */}
+      {/* Mobile-only Floating CallToAction */}
       <div className="floating-cta">
-        <a href="https://apps.apple.com" className="floating-button">
-          Download Now
-        </a>
+        <SmartDownloadButton/>
       </div>
       <Footer/>
     </>

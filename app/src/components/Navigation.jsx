@@ -25,7 +25,7 @@ function Navigation() {
   };
 
   return (
-    <nav className={`navbar${scrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${scrolled && !mobileMenuOpen ? 'scrolled' : ''}`}>
       <div className="nav-container">
         {/* Logo */}
         <div className="logo-section">
