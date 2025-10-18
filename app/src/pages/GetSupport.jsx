@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
-// TODO: Wire up the Footer component
 import Footer from '../components/Footer';
+import alertIcon from '../assets/alert.svg';
+import fastResponseIcon from '../assets/fast-response.svg';
+import toolsIcon from '../assets/tools.svg';
 
 function GetSupport() {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,7 +35,7 @@ function GetSupport() {
           <div className="alert-box">
             <div className="alert-header">
               <span>
-                <img src='src/assets/alert.svg' />
+                <img src={alertIcon} />
                 Crisis Support
               </span>
             </div>
@@ -42,14 +44,14 @@ function GetSupport() {
 
           <div className="support-cards">
             <div className="support-card">
-              <img src = 'src/assets/fast-response.svg'className="card-icon"/>
+              <img src={fastResponseIcon} className="card-icon"/>
               <h3>Quick Response</h3>
               <p>We typically respond within <strong>24-48 hours</strong> during business hours</p>
               <div className="hours-info">Monday - Friday, 9 AM - 6 PM EST</div>
             </div>
 
             <div className="support-card">
-              <img src = 'src/assets/tools.svg'className="card-icon"/>
+              <img src={toolsIcon} className="card-icon"/>
               <h3>What We Help With</h3>
               <div className="help-categories">
                 <div className="category">

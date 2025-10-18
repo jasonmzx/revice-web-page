@@ -1,4 +1,10 @@
 import Footer from '../components/Footer';
+import personalTrainerIcon from '../assets/personal-trainer.svg';
+import analyticsIcon from '../assets/analytics.svg';
+import dailyGoalIcon from '../assets/daily-goal.svg';
+import safeSpaceIcon from '../assets/safe-space.svg';
+import reminderBellIcon from '../assets/reminder-bell.svg';
+import privacyIcon from '../assets/privacy.svg';
 
 function Features() {
     return (
@@ -9,12 +15,12 @@ function Features() {
           
           <div className="feature-list">
             {[
-              { emoji: 'src/assets/personal-trainer.svg', title: 'Personalized Recovery', desc: 'Your 24/7 companion that learns your unique patterns, triggers, and motivations to provide support when you need it most.' },
-              { emoji: 'src/assets/analytics.svg', title: 'Smart Analytics', desc: 'Track your journey with intelligent insights. Visualize progress, identify patterns, and celebrate milestones.' },
-              { emoji: 'src/assets/daily-goal.svg', title: 'Daily Goals & Habits', desc: 'Build lasting change with personalized daily challenges and habit tracking designed for sustainable recovery.' },
-              { emoji: 'src/assets/safe-space.svg', title: 'Safe Community', desc: 'Connect anonymously with others on similar journeys. Share experiences, find support, and inspire each other.' },
-              { emoji: 'src/assets/reminder-bell.svg', title: 'Smart Reminders', desc: 'Gentle, timely nudges to keep you on track without being overwhelming. Your recovery, your pace.' },
-              { emoji: 'src/assets/privacy.svg', title: 'Privacy First', desc: 'End-to-end encryption ensures your journey remains private. Your data never leaves your device without permission.' },
+              { emoji: personalTrainerIcon, title: 'Personalized Recovery', desc: 'Your 24/7 companion that learns your unique patterns, triggers, and motivations to provide support when you need it most.' },
+              { emoji: analyticsIcon, title: 'Smart Analytics', desc: 'Track your journey with intelligent insights. Visualize progress, identify patterns, and celebrate milestones.' },
+              { emoji: dailyGoalIcon, title: 'Daily Goals & Habits', desc: 'Build lasting change with personalized daily challenges and habit tracking designed for sustainable recovery.' },
+              { emoji: safeSpaceIcon, title: 'Safe Community', desc: 'Connect anonymously with others on similar journeys. Share experiences, find support, and inspire each other.' },
+              { emoji: reminderBellIcon, title: 'Smart Reminders', desc: 'Gentle, timely nudges to keep you on track without being overwhelming. Your recovery, your pace.' },
+              { emoji: privacyIcon, title: 'Privacy First', desc: 'End-to-end encryption ensures your journey remains private. Your data never leaves your device without permission.' },
             ].map((item, index) => (
               <div key={index} className="feature-list-item">
                 <span className="feature-emoji">
