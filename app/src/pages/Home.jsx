@@ -106,8 +106,8 @@ function Home() {
       {/* CTA Section */}
       <section className="cta-section">
         <div className="cta-content">
-          <h2 className="cta-title">Ready to Revise?</h2>
-          <p className="cta-text">Join thousands who've already started their transformation</p>
+          <h2 className="cta-title">Ready to Revice your Life?</h2>
+          <p className="cta-text">Join thousands who've already started their sober journey.</p>
           <div className="hero-buttons">
             <AppStoreButton variant="large" />
             <GooglePlayButton variant="large" />
